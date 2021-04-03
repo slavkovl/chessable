@@ -1,0 +1,24 @@
+{
+    "autoload": {
+        
+        "classmap" : [
+            
+            "./"
+        
+        ]
+        
+    },
+    
+    "autoload_dev": {
+        
+        "psr-4" : {
+            
+            "Tests\\" : "tests/"
+            
+        }
+        
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
